@@ -1,0 +1,12 @@
+platform :ios, '10.0'
+
+target 'GoogleCalendarAPI'do
+  
+  use_frameworks!
+  
+  pod 'GoogleAPIClientForREST/Calendar', '~> 1.2.1'
+  pod 'GTMAppAuth'
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+end
+
